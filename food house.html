@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/032f5a99f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>food house</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #screen {
+        width: 80%;
+        margin: auto;
+        border: 1px solid red;
+      }
+      #screen > div {
+        width: 80%;
+        margin: auto;
+        height: 300px;
+        border: 2px solid black;
+      }
+      #screen > div:nth-child(1) {
+        /* width: 100%; */
+        height: 400px;
+        background-image: url("https://templatemo.com/templates/templatemo_539_simple_house/img/simple-house-01.jpg");
+        background-size: 100% 400px;
+      }
+      #screen > div:nth-child(1) > div {
+        width: 100%;
+        height: 80px;
+        /* border: 3px solid green; */
+        margin-top: 270px;
+
+        display: flex;
+        justify-content: space-between;
+      }
+      #screen > div:nth-child(1) > div > div:nth-child(1) {
+        width: 30%;
+        height: 100%;
+        /* border: 1px solid red; */
+      }
+      #screen > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+        display: flex;
+        color: white;
+        margin-top: 50px;
+        margin-left: 30px;
+      }
+      #screen
+        > div:nth-child(1)
+        > div:nth-child(1)
+        > div:nth-child(1)
+        > div:nth-child(1) {
+        font-size: 40px;
+      }
+      #screen
+        > div:nth-child(1)
+        > div:nth-child(1)
+        > div:nth-child(1)
+        > div:nth-child(2) {
+        margin-left: 15px;
+      }
+
+      #screen > div:nth-child(1) > div > div:nth-child(2) {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        font-size: 15px;
+      }
+      #screen > div:nth-child(1) > div > div:nth-child(2) > div {
+        margin-top: 50px;
+      }
+      #screen > div:nth-child(2){ 
+        width: 80%;
+         color: black;
+        height: 200px;
+        border: 1px solid black;
+      }
+      #screen > div:nth-child(2)>div:nth-child(1){
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-top: 30px;
+        font-size: 15px;
+        }
+        #screen > div:nth-child(2)>div:nth-child(2)
+        {
+            font-size: 15px;
+            text-align: center;
+            /* border: 2px solid black; */
+        }
+        #screen > div:nth-child(2)>div:nth-child(3)
+        {
+            width: 25% ;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            /* margin-left: 100px; */
+            margin-top: 20px;
+            
+            /* border: 1px solid black; */
+        }
+        
+      #screen > div:nth-child(3) {
+        width: 80%;
+        height: 500px;
+
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+      }
+      #screen > div:nth-child(3)>div{
+        width: 21%;
+        height: 200px;
+        /* border: 1px solid black ;     */
+        margin-bottom: 10px;
+     }
+     #screen > div:nth-child(3)>div:nth-child(1)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 120px;
+        margin-left: 10px;
+     }
+     #screen > div:nth-child(3)>div:nth-child(2)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 120px;
+        margin-left: 10px;
+        }
+        #screen > div:nth-child(3)>div:nth-child(3)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 120px;
+                margin-left: 10px;
+                }
+        #screen > div:nth-child(3)>div:nth-child(4)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 120px;
+        margin-left: 10px;
+        }
+        #screen > div:nth-child(3)>div:nth-child(5)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 150px;
+        margin-left: 10px;
+        }  
+        #screen > div:nth-child(3)>div:nth-child(6)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 150px;
+        margin-left: 10px;
+        } 
+        #screen > div:nth-child(3)>div:nth-child(7)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 150px;
+        margin-left: 10px;
+        } 
+        #screen > div:nth-child(3)>div:nth-child(8)>div:nth-child(1)>img{
+
+        width: 100px;
+        height: 150px;
+        margin-left: 10px;
+        } 
+#screen > div:nth-child(4) {
+        width: 80%;
+        height: 200px;
+        /* border: 1px solid black; */
+        display: flex;
+
+      }
+      #screen > div:nth-child(4)>div:nth-child(1)
+        {
+            width: 50%;
+            height: 150px;
+            /* border: 1px solid blue; */
+
+      }
+      #screen > div:nth-child(4)>div:nth-child(1)>img
+      {
+        width:100%;
+        height: 100%;
+
+      } 
+      #screen > div:nth-child(4)>div:nth-child(2)
+      {
+        
+            width: 50%;
+            height: 150px;
+            /* border: 1px solid blue;  */
+      }
+      #screen > div:nth-child(4)>div:nth-child(2)>h1
+      {
+        font-size: 20px;
+        color: blueviolet;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="screen">
+      <div>
+        <div>
+          <div>
+            <div><i class="fa-regular fa-square"></i></div>
+            <div>
+              <div>Food house</div>
+              <div>Resturant</div>
+            </div>
+          </div>
+          <div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+            <h1>Welcome to Simple house</h1>
+        </div>
+        <div>
+            <p>Total 3 html pages are included in the template.Header image has parallex effect.You can feel free to download</p>
+        </div>
+        <div>
+            <div><button>Pizza</button></div>
+            <div><button>Salad</button></div>
+            <div><button>Noodie</button></div>
+        </div>
+      </div>
+    <div>
+        
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c4f49d429711402265131ae/1584558003215-HYZTWQ94E57TEFT00DX9/71C2D867-4EF1-4B0B-90AD-50433018DE51.jpeg?format=1500w" alt="my image">
+                    
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c4f49d429711402265131ae/1584558003215-HYZTWQ94E57TEFT00DX9/71C2D867-4EF1-4B0B-90AD-50433018DE51.jpeg?format=1500w">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c4f49d429711402265131ae/1584558003215-HYZTWQ94E57TEFT00DX9/71C2D867-4EF1-4B0B-90AD-50433018DE51.jpeg?format=1500w">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c4f49d429711402265131ae/1584558003215-HYZTWQ94E57TEFT00DX9/71C2D867-4EF1-4B0B-90AD-50433018DE51.jpeg?format=1500w">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpiYBNETAf8yOmTzvVK8zmLTwzrtrM3g5kw&usqp=CAU">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c113b1c70e802896a2c21d2/1594567188700-D0KFT632ZF4D2VMVBKRG/Barrow_Food_House_North_Fork_Long_Island+%2822+of+22%29.jpg?format=1500w">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c113b1c70e802896a2c21d2/1594567188700-D0KFT632ZF4D2VMVBKRG/Barrow_Food_House_North_Fork_Long_Island+%2822+of+22%29.jpg?format=1500w">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c113b1c70e802896a2c21d2/1594567188700-D0KFT632ZF4D2VMVBKRG/Barrow_Food_House_North_Fork_Long_Island+%2822+of+22%29.jpg?format=1500w">
+                </div>
+            </div>
+            
+          </div>
+      <div>
+        <div>
+            <img src="https://templatemo.com/templates/templatemo_539_simple_house/img/img-01.jpg" alt="image">
+        </div>
+        <div>
+            <h1>Maecenus nulla neque</h1>
+            <p>Redisturbuting this template as downloaded zip file on any file on any tempalate collection site. thank you </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
